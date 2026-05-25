@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#4338ca"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#4338ca"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 배경 -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Geometric pattern -->
+  <circle cx="409" cy="115" r="60" fill="#4338ca" opacity="0.18"/>
+    <circle cx="1291" cy="386" r="20" fill="#4338ca" opacity="0.15"/>
+    <circle cx="1156" cy="153" r="28" fill="#4338ca" opacity="0.17"/>
+    <circle cx="151" cy="215" r="64" fill="#4338ca" opacity="0.08"/>
+    <circle cx="-59" cy="174" r="72" fill="#4338ca" opacity="0.09"/>
+    <circle cx="351" cy="-46" r="33" fill="#4338ca" opacity="0.09"/>
+    <rect x="1053" y="-29" width="20" height="62" rx="8" fill="#4f46e5" opacity="0.07" transform="rotate(10, 676, 319)"/>
+    <rect x="932" y="348" width="35" height="72" rx="8" fill="#4f46e5" opacity="0.09" transform="rotate(8, 474, 306)"/>
+    <rect x="116" y="483" width="20" height="95" rx="8" fill="#4f46e5" opacity="0.15" transform="rotate(9, 226, 103)"/>
+    <rect x="424" y="528" width="72" height="51" rx="8" fill="#4f46e5" opacity="0.11" transform="rotate(42, 736, 499)"/>
+    <rect x="1254" y="596" width="47" height="51" rx="8" fill="#4f46e5" opacity="0.15" transform="rotate(32, 1231, 228)"/>
+    <rect x="811" y="350" width="21" height="27" rx="8" fill="#4f46e5" opacity="0.11" transform="rotate(18, 232, -15)"/>
+    <rect x="395" y="217" width="61" height="24" rx="8" fill="#4f46e5" opacity="0.14" transform="rotate(12, 1273, 521)"/>
+    <rect x="834" y="70" width="80" height="97" rx="8" fill="#4f46e5" opacity="0.07" transform="rotate(38, 637, 78)"/>
+    <polygon points="937,655 959,699 915,699" fill="#4338ca" opacity="0.04"/>
+    <polygon points="751,280 826,430 676,430" fill="#4338ca" opacity="0.03"/>
+    <polygon points="559,543 615,655 503,655" fill="#4338ca" opacity="0.10"/>
+    <polygon points="1196,328 1245,426 1147,426" fill="#4338ca" opacity="0.09"/>
+
+  <!-- Wave at bottom -->
+  <path d="M0,564 C360,597 840,531 1200,564 L1200,630 L0,630Z" fill="#4338ca" opacity="0.3"/>
+
+  <!-- 중앙 텍스트 카드 -->
+  <rect x="80" y="195" width="1040" height="260" rx="20" fill="rgba(0,0,0,0.35)" filter="url(#blur-bg)"/>
+  <filter id="blur-bg"><feGaussianBlur stdDeviation="8"/></filter>
+
+  <text x="600" y="270" text-anchor="middle" font-family="'Noto Sans JP','Noto Sans KR','Pretendard',sans-serif" font-size="44" font-weight="700" fill="#ffffff" letter-spacing="2">
+    구글 신뢰 지수 모발이식 솔루션
+  </text>
+  <text x="600" y="330" text-anchor="middle" font-family="'Noto Sans JP','Noto Sans KR','Pretendard',sans-serif" font-size="22" font-weight="400" fill="rgba(255,255,255,0.85)">
+     — 도메인 파워 증폭
+  </text>
+
+  <!-- Accent line -->
+  <line x1="450" y1="355" x2="750" y2="355" stroke="#818cf8" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- 하단 CTA -->
+  <rect x="440" y="385" width="320" height="40" rx="20" fill="#818cf8" opacity="0.9"/>
+  <text x="600" y="411" text-anchor="middle" font-family="'Noto Sans JP','Noto Sans KR','Pretendard',sans-serif" font-size="16" font-weight="600" fill="#ffffff">
+    ▼ 자세히 보기
+  </text>
+
+  <!-- 상단 브랜드 -->
+  <text x="60" y="55" font-family="'Noto Sans JP','Noto Sans KR','Pretendard',sans-serif" font-size="18" font-weight="600" fill="rgba(255,255,255,0.6)">
+     구글 신뢰 지수 모발이식 솔루션 — 도메인 파워 증폭
+  </text>
+</svg>
